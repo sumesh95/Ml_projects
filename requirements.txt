@@ -5,4 +5,5 @@ scikit-learn
 imblearn
 scipy
 xgboost
+dill
 # -e .

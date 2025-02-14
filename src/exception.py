@@ -4,7 +4,7 @@ import logging
 def error_message_details(error,error_details:sys):
     _,_,exc_tb=error_details.exc_info()
     fileName=exc_tb.tb_frame.f_code.co_filename
-    error_message="error message in [{0}] and line no is [{1}]".format(fileName,exc_tb.tb_lineno,str(error))
+    error_message="error message in [{0}] and line no is [{1}] and error is [{2}]".format(fileName,exc_tb.tb_lineno,str(error))
     return error_message
 
 
