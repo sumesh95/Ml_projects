@@ -99,7 +99,7 @@ class DataTransformation:
 
         except Exception as e:
             logging.error(CustomeException(e,sys))
-            pass
+            
 
 
 
