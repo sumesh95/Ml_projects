@@ -12,4 +12,5 @@ gunicorn
 pymongo[srv]==3.11
 certifi
 python-dotenv
--e .
+dvc
+# -e .
